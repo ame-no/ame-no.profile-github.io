@@ -258,6 +258,9 @@ header,main,footer{
 
 
 @media(min-width:700px){
+  body{
+    font-size: 1.1rem;
+  }
   .contact__body{
     width: 70%;
     margin: auto;
