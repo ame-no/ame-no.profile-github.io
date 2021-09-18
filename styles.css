@@ -1,0 +1,274 @@
+/* トップページに関する記述が下記 */
+
+
+body{
+  color: #303030;
+  background: #f0f0f0;
+}
+.index__body{
+  width: 100%;
+  margin: 0;
+  font-weight:lighter;
+}
+.index__header{
+  display: flex;
+  justify-content: space-between;
+}
+h1,h2,h3{
+  font-weight:lighter;
+  text-shadow:1px 1px 1px #707070;
+}
+.index__h1{
+  margin-left: 4%;
+}
+.index__head__ul{
+  display: flex;
+  list-style-type:none;
+}
+.index__head__li{
+  padding-right: 20px;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+.index__head__link{
+  color: #000;
+  text-decoration: none;
+}
+.index__main__img{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 50px;
+  border: 0.9px solid black;
+}
+.index__senter__p{
+  width: 95%;
+  margin: 20px auto;
+}
+.index__senter__text{
+  text-align:center;
+  margin-bottom: 80px;
+}
+.index__profile__img{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.index__works__container{
+  width: 100%;
+  margin:auto;
+}
+.index__work__content{
+  width: 100%;
+  margin:40px auto;
+}
+.index__work__img{
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 3px 3px 3px #000;
+}
+h2{
+  text-align:center;
+}
+.index__works__p{
+  text-align:center;
+}
+.index__works__content{
+  background: #404040;
+}
+.index__end__p{
+  font-size: 0.7rem;
+  text-align:center;
+  margin-bottom: 2px;
+}
+
+
+
+
+/* 問い合わせページに関するCSSが下記 */
+
+.contact__body{
+  width: 100%;
+  margin: 0;
+}
+.contact__header{
+  width: 85%;
+  margin: 20px auto 30px;
+}
+.contact__main{
+  width: 85%;
+  margin:auto;
+}
+.contact__footer{
+  width: 85%;
+  margin:auto;
+}
+.contact__a__naw{
+  opacity: 0.5;
+}
+.contact__head__div1{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact__head__div2{
+  display: flex;
+  justify-content: right;
+}
+.contact__h2{
+  font-size: 1.2rem;
+}
+.contact__head__list{
+  display: flex;
+  list-style-type:none;
+}
+.contact__head__list__item{
+  padding-right:20px;
+}
+.contact__link__icon{
+  padding-top: 30px;
+}
+.contact__explain{
+  margin-bottom: 30px;
+}
+.contact__section{
+  border: 1px solid #f0f0f0;
+  border-radius:12px;
+  height: 470px;
+  box-sizing: border-box;
+  padding:30px;
+}
+.contact__div{
+  margin-left: 30px;
+}
+.contact__span{
+  display: block;
+  padding-top: 10px;
+}
+input,textarea{
+  opacity:0.9;
+  width: 80%;
+  max-width: 330px;
+}
+.contact__btn{
+  /* background:rgba(100,100,100,0.1); */
+  border: 0.1px solid black;
+  border-radius: 7%;
+  width: 40px;
+  text-align:center;
+  margin-left: 30px;
+}
+/* .contact__btn1{ */
+  a{text-decoration: none;
+  color:black;
+}
+.contact__p{
+  margin: 50px auto 0;
+  font-size: 0.2rem;
+  text-align: center;
+}
+
+
+
+
+/* ワークスＣＳＳ */
+
+/* body{
+  width: 100%;
+  margin: 0;
+} */
+header,main,footer{
+  width: 85%;
+  margin:auto;
+}
+.works__header{
+  margin-bottom: 30px;
+}
+.works__h3{
+  margin: 7px auto 2px;
+}
+.works__head__div1{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+.works__head__div2{
+  display: flex;
+  justify-content: right;
+}
+/* .works__contact__h2{
+  font-size: 1.2rem;
+} */
+.works__link__icon{
+  padding-top: 20px;
+}
+.works__link__icoco{
+  width: 45px;
+  border-radius: 50%;
+}
+.works__div{
+  text-align:center;
+  /* border: 0.5px solid black; */
+  box-sizing: border-box;
+  padding: 20px;
+  margin: 40px auto;
+}
+.works__link{
+  text-decoration: none;
+  color:black;
+}
+.works__img{
+  width: 95%;
+  max-width: 700px;
+  height: 30%;
+  object-fit:scale-down;
+}
+.works__p{
+  width: 50%;
+  margin:0px auto ;
+  font-size: 0.8em;
+}
+.works__foot__attention{
+  display: flex;
+  list-style-type:none;
+  width: 30%;
+  margin:40px auto;
+}
+.works__foot__list__li{
+  padding-left: 6px;
+}
+.works__foot__list__count{
+  padding-right: 20px;
+  /* font-size: 0.7em; */
+}
+.works__foot__link{
+   text-decoration: none;
+}
+.works__end__p{
+  text-align:center;
+  margin-bottom: 0;
+  font-size: 0.7rem;
+}
+
+
+
+
+
+@media(min-width:700px){
+  .contact__body{
+    width: 70%;
+    margin: auto;
+  }
+  .index__work__img{
+    height: 100%;
+  }
+  .index__works__container2{
+    display: flex;
+    }
+    .index__work__content{
+      width: 30%;
+    }
+}
